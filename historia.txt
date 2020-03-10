@@ -3,5 +3,4 @@ carpeta puedes habilitar la opción de Vista >
  Mostrar u ocultar > Elementos ocultos (en Windows) o ejecutar 
  el comando ls -a.
 
-Le indicaremos a Git que queremos crear un nuevo
- repositorio para utilizar su sistema de control de versiones. Solo debemos posicionarnos en la carpeta raíz de nuestro proyecto y ejecutar el comando git init.
+probando el reset head
