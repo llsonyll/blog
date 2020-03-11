@@ -6,3 +6,10 @@ body{
     border-color: aqua;
 }
 
+#cabecera{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-style: italic;
+    border-bottom: 2cm;
+    background-color: aqua;
+}
