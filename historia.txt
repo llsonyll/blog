@@ -1,0 +1,6 @@
+Si quieres ver los archivos ocultos de una 
+carpeta puedes habilitar la opción de Vista >
+ Mostrar u ocultar > Elementos ocultos (en Windows) o ejecutar 
+ el comando ls -a.
+
+probando el reset head
