@@ -1,0 +1,11 @@
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.exe
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.deps.json
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.json
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.dev.json
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.dll
+C:\Users\JULS\Documents\C# MODE\etap1\bin\Debug\netcoreapp3.1\etap1.pdb
+C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.csprojAssemblyReference.cache
+C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfoInputs.cache
+C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfo.cs
+C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.dll
+C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.pdb
