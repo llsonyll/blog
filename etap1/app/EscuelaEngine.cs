@@ -14,10 +14,10 @@ namespace CoreEscuela.App
         }
 
         public void inicializar(){
-            Escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
-            
+            Escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");            
             CargarCursos();                      
-            CargarAsignaturas();            
+            CargarAsignaturas();
+            CargarEvaluaciones();
         }
 
         private void CargarCursos(){

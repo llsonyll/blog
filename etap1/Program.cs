@@ -11,11 +11,14 @@ namespace etap1
         static void Main(string[] args)
         {
             var engine = new EscuelaEngine();
-            engine.inicializar();
-            Printer.DrawLine();    
+            engine.inicializar();            
             Printer.WriteTitle("Cursos Escuela");
-            Printer.Beep(2000, 5000, 3);     
+            //Printer.Beep(2000, 5000, 3);     
             ImprimirCursosEscuela(engine.Escuela);
+
+            Printer.WriteTitle("Alumnos Escuela");
+
+            ImprimirDatosAlumno(engine.Escuela);
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
             escuela.TipoEscuela = TiposEscuela.Primaria; */
@@ -85,16 +88,30 @@ namespace etap1
             return curobj.Nombre == "301";
         }
 
-        private static void ImprimirCursosEscuela(Escuela escuela){
-            System.Console.WriteLine("====================");
-            System.Console.WriteLine("Cursos de la Escuela");
-            System.Console.WriteLine("====================");
+        private static void ImprimirCursosEscuela(Escuela escuela){          
             //if (escuela != null && escuela.Cursos != null)
             if (escuela?.Cursos != null)
             {
                 foreach (var curso in escuela.Cursos)
                 {
                     System.Console.WriteLine($"Nombre: {curso.Nombre}, ID {curso.UniqueId}");
+                }
+            }
+        }
+
+        private static void ImprimirDatosAlumno(Escuela escuela){
+
+             if (escuela?.Cursos != null)
+            {
+                foreach (var curso in escuela.Cursos)
+                {
+                    foreach (var asignatura in curso.Asignaturas)
+                    {
+                        foreach (var Alumno in curso.Alumnos)
+                        {
+                                System.Console.WriteLine($"Nombre: {Alumno.Nombre}, Evaluacion: {Alumno.Evaluacion}");
+                        }
+                    }
                 }
             }
         }
