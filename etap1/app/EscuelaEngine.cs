@@ -71,15 +71,6 @@ namespace CoreEscuela.App
         }
 
         private List<Evaluaciones> CargarEvaluaciones(){
-            string[] ciclo = {"Primer", "Segundo", "Tercer"};            
-            string[] tipo = {"Examen"};
-            int[] nt = {1, 2, 3, 4, 5};            
-            var lstEvaluaciones =   from c1 in ciclo
-                                    from t1 in tipo
-                                    from a1 in listaAsignaturas
-                                    from n in nt
-                                    select new Evaluaciones{Nombre = $"{c1} {t1} de {a1}", Nota = n};            
-            return lstEvaluaciones.OrderBy( (ev)=> ev.UniqueId).Take(5).ToList();
         }
     }
 }
