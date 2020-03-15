@@ -8,31 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\JULS\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sony_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JULS\\Documents\\C# MODE\\etap1\\etap1.csproj",
+      "projectUniqueName": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\etap1.csproj",
       "projectName": "etap1",
-      "projectPath": "C:\\Users\\JULS\\Documents\\C# MODE\\etap1\\etap1.csproj",
-      "packagesPath": "C:\\Users\\JULS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JULS\\Documents\\C# MODE\\etap1\\obj\\",
+      "projectPath": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\etap1.csproj",
+      "packagesPath": "C:\\Users\\sony_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\JULS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\sony_\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

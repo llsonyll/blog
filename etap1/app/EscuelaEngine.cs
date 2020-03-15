@@ -17,8 +17,7 @@ namespace CoreEscuela.App
             Escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             
             CargarCursos();                      
-            CargarAsignaturas();
-            CargarEvaluaciones();
+            CargarAsignaturas();            
         }
 
         private void CargarCursos(){
@@ -62,15 +61,7 @@ namespace CoreEscuela.App
                     new Asignatura{Nombre = "Fisica"}
                 };                
                 curso.Asignaturas = listaAsignaturas;
-            }
-
-            foreach (var asignatura in Curso.Asignaturas)
-            {
-                asignatura.Evaluaciones = CargarEvaluaciones();
-            }
-        }
-
-        private List<Evaluaciones> CargarEvaluaciones(){
+            }                      
         }
     }
 }

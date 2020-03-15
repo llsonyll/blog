@@ -9,3 +9,14 @@ C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfo
 C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfo.cs
 C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.dll
 C:\Users\JULS\Documents\C# MODE\etap1\obj\Debug\netcoreapp3.1\etap1.pdb
+C:\Users\sony_\OneDrive\Documentos\git\etap1\obj\Debug\netcoreapp3.1\etap1.csprojAssemblyReference.cache
+C:\Users\sony_\OneDrive\Documentos\git\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfoInputs.cache
+C:\Users\sony_\OneDrive\Documentos\git\etap1\obj\Debug\netcoreapp3.1\etap1.AssemblyInfo.cs
+C:\Users\sony_\OneDrive\Documentos\git\etap1\obj\Debug\netcoreapp3.1\etap1.dll
+C:\Users\sony_\OneDrive\Documentos\git\etap1\obj\Debug\netcoreapp3.1\etap1.pdb
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.exe
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.deps.json
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.json
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.dev.json
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.dll
+C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.pdb
