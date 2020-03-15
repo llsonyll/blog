@@ -63,5 +63,28 @@ namespace CoreEscuela.App
                 curso.Asignaturas = listaAsignaturas;
             }                      
         }
+
+        private void CargarEvaluaciones(){
+            foreach (var curso in Escuela.Cursos)
+            {
+                foreach (var asignatura in curso.Asignaturas)
+                {
+                    foreach (var Alumno in curso.Alumnos)
+                    {
+                        var rnd = new Random(System.Environment.TickCount);
+
+                        for (int i = 0; i < 5; i++){
+                            var ev = new Evaluaciones{
+                                Asignatura = asignatura,
+                                Nombre = $"{asignatura.Nombre} Ev#(i+1)",
+                                Nota = (float)(5*rnd.NextDouble()),
+                                Alumno = Alumno
+                            };   
+                            Alumno.Evaluacion.Add(ev);     
+                        }        
+                    }
+                }
+            }
+        }
     }
 }
